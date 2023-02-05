@@ -18,6 +18,7 @@ VALUES (1, '$2a$08$mEmTlrDeN/3mUDVou639kel7BA2JjDsD/eqhed8pLQphtlfWpYruS', 'admi
 
 --password for admin is admin123
 --password for user is user123
+
 --user_roles join table
 INSERT INTO users_roles(user_id, role_id)
 VALUES (1, 1),
