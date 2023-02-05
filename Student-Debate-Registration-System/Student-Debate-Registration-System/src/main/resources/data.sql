@@ -16,6 +16,8 @@ INSERT INTO user (id, password, username)
 VALUES (1, '$2a$08$mEmTlrDeN/3mUDVou639kel7BA2JjDsD/eqhed8pLQphtlfWpYruS', 'admin' ),
 	   (2, '$2a$08$Bcp79Zx2wNVgrL/hshYYn.LtvbYBuhY1uzOW3Y9NmDVYKs2EmleaC', 'user');
 
+--password for admin is admin123
+--password for user is user123
 --user_roles join table
 INSERT INTO users_roles(user_id, role_id)
 VALUES (1, 1),
